@@ -1,9 +1,28 @@
+*:not(ul, ol){
+    margin: 0;
+    padding: 0;
+}
 body {
+    margin: 0;
+    padding: 0;
+
     background-color: lightblue;
     font-family: Verdana, sans-serif;
 }
-
-.banner {
+p, h1, h2, h3 {
+    margin: 8px;
+}
+img {
     padding: 0;
     margin: 0;
+}
+.gallery-box {
+    text-align: center;
+    background-color: cadetblue;
+}
+.galleryimg {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
 }
