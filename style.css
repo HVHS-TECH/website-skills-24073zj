@@ -9,12 +9,45 @@ body {
     background-color: lightblue;
     font-family: Verdana, sans-serif;
 }
-p, h1, h2, h3 {
+p, h1, h2, h3, a {
     margin: 8px;
 }
 img {
     padding: 0;
     margin: 0;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: aquamarine;
+    padding-bottom: 4px;
+}
+nav {
+    background-color: cornflowerblue;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+main {
+    background-color: lightgoldenrodyellow;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+footer {
+    background-color: blanchedalmond;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.redtext {
+    color: red;
+}
+#gallery-main {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .gallery-box {
     text-align: center;
