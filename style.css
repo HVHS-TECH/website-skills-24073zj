@@ -18,14 +18,13 @@ img {
 }
 a {
     text-decoration: none;
-    color: orange;
 }
 header {
     background-color: aquamarine;
     padding-bottom: 4px;
 }
 nav {
-    background-color: cornflowerblue;
+    background-color: #5DFFA3; /*cornflowerblue*/
     padding-left: 4px;
     padding-top: 4px;
     padding-bottom: 4px;
