@@ -24,8 +24,29 @@ header {
     padding-bottom: 4px;
 }
 nav {
-    background-color: #5DFFA3; /*cornflowerblue*/
+    background-color: cornflowerblue; /*cornflowerblue*/
     padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.main-flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; /*center, space around*/
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;/*center, space around*/
+}
+.flex-item {
+    background-color: #5DFFA3;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    
+    padding-left: 8px;
+    padding-right: 8px;
     padding-top: 4px;
     padding-bottom: 4px;
 }
