@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 header {
-    background-color: aquamarine;
+    background-color: aquamarine; /*aquamarine*/
     padding-bottom: 4px;
 }
 nav {
@@ -76,13 +76,13 @@ footer {
     height: 50px;
 }
 #wide {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 1;
 }
 #tall {
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row: 1 / span 2;
     height: auto;
+}
+.f22img {
+    height: 50px;
 }
