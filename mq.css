@@ -1,0 +1,54 @@
+/* Base style for mobile devices 
+body {
+    background-color: olive;
+}
+
+/* For devices with a minimum width of 768px (Medium) 
+@media screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* For devices with a minimum width of 992px (Large) 
+@media screen and (min-width: 992px) {
+    body {
+        background-color: tan;
+    }
+}*/
+
+
+/* default */
+body {
+    background-color: red;
+}
+@media screen and (min-width: calc(2 * 175px)) {
+    body {
+        background-color: orange;
+    }
+}
+@media screen and (min-width: calc(3 * 175px)) {
+    body {
+        background-color: yellow;
+    }
+}
+@media screen and (min-width: calc(4 * 175px)) {
+    body {
+        background-color: green;
+    }
+}
+@media screen and (min-width: calc(5 * 175px)) {
+    body {
+        background-color: blue;
+    }
+}
+@media screen and (min-width: calc(6 * 175px)) {
+    body {
+        background-color: indigo;
+    }
+}
+@media screen and (min-width: calc(7 * 175px)) {
+    body {
+        background-color: violet;
+    }
+}
